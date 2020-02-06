@@ -34,22 +34,22 @@ class _HomeState extends State<Home> {
       double imc = weight / (height * height);
       if (imc < 18.6) {
         _infoText =
-        "Você esta só o pó !          IMC: ${imc.toStringAsPrecision(4)}";
+        "Voce esta muito magro!          IMC: ${imc.toStringAsPrecision(4)}";
       } else if (imc >= 18.6 && imc < 24.9) {
         _infoText =
-        "Você esta bem !                IMC: ${imc.toStringAsPrecision(4)}";
+        "Voce esta bem! IMC: ${imc.toStringAsPrecision(4)}";
       } else if (imc >= 24.9 && imc < 29.9) {
         _infoText =
-        "Você esta meio gordo !   IMC: ${imc.toStringAsPrecision(4)}";
+        "Voce esta meio gordo!    IMC: ${imc.toStringAsPrecision(4)}";
       } else if (imc >= 29.9 && imc < 34.9) {
         _infoText =
-        "Você esta gordo ! (Obesidade I) IMC: ${imc.toStringAsPrecision(4)}";
+        "Voce esta gordo!  (Obesidade I) IMC: ${imc.toStringAsPrecision(4)}";
       } else if (imc >= 34.9 && imc < 39.9) {
         _infoText =
-        "Você esta gordão ! (Obesidade II) IMC: ${imc.toStringAsPrecision(4)}";
+        "Voce esta muito gordo! (Obesidade II) IMC: ${imc.toStringAsPrecision(4)}";
       } else if (imc >= 40) {
         _infoText =
-        "Você esta GORDAÇO ! (Obesidade III) IMC: ${imc.toStringAsPrecision(
+        "Voce esta MUITO GORDO! (Obesidade III) IMC: ${imc.toStringAsPrecision(
             4)}";
       }
     });
@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
                 controller: weightController,
                 validator: (value) {
                   if (value.isEmpty) {
-                    return "Insira seu Peso !";
+                    return "Insira seu Peso!";
                   }
                 },
               ),
@@ -102,7 +102,7 @@ class _HomeState extends State<Home> {
                 controller: heightController,
                 validator: (value) {
                   if (value.isEmpty) {
-                    return "Insira sua Altura !";
+                    return "Insira sua Altura!";
                   }
                 },
               ),
@@ -113,7 +113,7 @@ class _HomeState extends State<Home> {
                   child: RaisedButton(
                     onPressed: _calcular,
                     child: Text(
-                      "Calcular !",
+                      "Calcular",
                       style: TextStyle(color: Colors.white, fontSize: 20.0),
                     ),
                     color: Colors.green,

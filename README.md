@@ -1,6 +1,6 @@
 # calculadora_imc
 
-Calculadora IMC Hirooka
+IMC Calculator - Hirooka
 
 ## Getting Started
 
