@@ -1,4 +1,4 @@
-#Thu Feb 06 04:28:07 BRST 2020
-base.0=C\:\\AndroidStudio\\CalcIMC\\calculadora_imc\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Tue Jan 26 20:57:05 BRT 2021
+base.0=C\:\\Users\\leona\\Desktop\\calculadora_imc_flutter\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

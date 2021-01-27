@@ -1,6 +1,8 @@
 # calculadora_imc
 
-IMC Calculator - Hirooka
+Calculadora de Indice de Massa Corporal
+
+![](Print.png)
 
 ## Getting Started
 
